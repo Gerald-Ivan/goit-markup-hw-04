@@ -364,7 +364,7 @@ img{
 }
 /* hw4 */
 .hero-bg{
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/portfolio01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;

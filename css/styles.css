@@ -16,10 +16,10 @@
     --roboto-font: Roboto, sans-serif;
     --raleway-font: Raleway, sans-serif;
 }
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 /* body-default-design */
 body {
     font-family: var(--roboto-font);
@@ -82,9 +82,11 @@ body {
 
 .address {
     font-style: normal;
+    justify-content: right;
     /* hw3 */
     display: flex;
     gap: 40px;
+    margin-left: auto;
 }
 
 .address-links {
@@ -108,6 +110,7 @@ body {
     background-color: var(--dark);
     /* hw3 */
     padding: 188px 0;
+    
 }
 
 .hero-header {
@@ -215,6 +218,11 @@ body {
     letter-spacing: 0.02em;
     /* hw3 */
     max-width: 264px;
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 /* portfolio */
@@ -311,7 +319,7 @@ img{
     width: calc((100% - 72px)/4);
     border-radius: 0 0 4px 4px;
 }
-.team-content{
+.team-content-container{
     padding: 32px 0;
 }
 .team-header{
@@ -349,12 +357,62 @@ img{
     margin-bottom: 48px; */
     width: calc((100% - 48px)/3);
 }
-.portfolio-card-third{
-    /* margin-right: 0;
-    margin-bottom: 0; */
-}
 .description-container{
     padding: 32px 16px;
     border: 1px solid var(--accent);
     border-top: none;
+}
+/* hw4 */
+.hero-bg{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.marketing-svg-container{
+    background-color: var(--light);
+    align-items: center;
+}
+.marketing-svg{
+    display: block;
+    margin: 24px 100px;
+}
+.team-social-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+      
+}
+.team-social-link{
+    background-color: var(--primary-brand);
+    border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+}
+.costumers-item{
+    border-radius: 4px;
+    border: 1px solid var(--subtle-text);
+    width: 168px;
+    height: 88px;
+}
+.costumers-list{
+    display: flex;
+    gap: 24px;
+}
+.costumers-item{
+    width: calc((100% - 88px)/5);
+}
+.footer-header{
+    color: var(--light);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+.footer-social{
+    display: block;
 }

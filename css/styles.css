@@ -108,8 +108,13 @@ body {
 /* hero section */
 .section-hero {
     background-color: var(--dark);
-    /* hw3 */
+        /* hw3 */
     padding: 188px 0;
+    /* hw4 */
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
     
 }
 
@@ -363,12 +368,10 @@ img{
     border-top: none;
 }
 /* hw4 */
-.hero-bg{
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: auto;
-}
+/* .hero-bg{
+ 
+ 
+} */
 .marketing-svg-container{
     background-color: var(--light);
     align-items: center;

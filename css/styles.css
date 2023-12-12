@@ -414,9 +414,6 @@ img{
         height: 40px;
     
 }
-.team-social-item{
-
-}
 .team-social-link:hover
 .team-social-link:focus{
     background-color: var(--pressed-state);
@@ -456,11 +453,19 @@ img{
     justify-content: center;
     color: var(--subtle-text);
 }
-.customers-link:hover,
-.customers-link:link{
+.customers-link:hover {
+    border-color: var(--pressed-state); 
+    color: var(--pressed-state);
+}
+.customers-link:hover svg {
+    border-color: var(--pressed-state);
+    color: var(--pressed-state);
+}
+.customers-link:focus {
+    color: var(--pressed-state);
     border-color: var(--pressed-state);
 }
-.customers-svg{
+.customer-svg svg {
     fill: currentColor;
 }
 .footer-container{
@@ -497,7 +502,7 @@ img{
     align-items: center;
     justify-content: center;
 }
-.footer-social-link:hover
-.footer-social-link:focus{
+.footer-social-link:hover,
+.footer-social-link:focus {
     background-color: var(--success);
 }

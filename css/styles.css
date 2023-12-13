@@ -447,13 +447,10 @@ img {
   justify-content: center;
   color: var(--subtle-text);
 }
-.customers-link:hover {
-  border-color: var(--pressed-state);
-  color: var(--pressed-state);
-}
+.customers-link:hover,
 .customers-link:focus {
-  color: var(--pressed-state);
   border-color: var(--pressed-state);
+  color: var(--pressed-state);
 }
 .customer-svg {
   fill: currentColor;
